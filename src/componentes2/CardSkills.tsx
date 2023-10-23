@@ -1,4 +1,3 @@
-import React from "react";
 import CircleProgressBar from "../components/CircleProgressBar";
 
 const CardSkills = ({ imagem, title, porcentagem }) => {
