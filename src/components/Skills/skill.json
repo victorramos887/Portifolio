@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Qgis",
+        "porcentagem": "55",
+        "imagem": "../../assets/img/icons8-qgis.svg",
+        "paragrafo": "QGIS é um aplicativo profissional GIS Livre e de Código Aberto, com muito orgulho, que é construído a partir de Software Livre e de Código Aberto, Free and Open Source Software (FOSS)."
+    },
+    {
+        "id": 2,
+        "title": "React",
+        "porcentagem": "35",
+        "imagem": "../../assets/img/react-svgrepo-com.svg",
+        "paragrafo": "React faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam."
+    },
+    {
+        "id": 3,
+        "title": "Flask",
+        "porcentagem": "65",
+        "imagem": "../../assets/img/flask-svgrepo-com.svg",
+        "paragrafo": "Flask é um micro framework para desenvolvimento web. Você está vendo a documentação da versão em desenvolvimento."
+    },
+    {
+        "id": 4,
+        "title": "Postgresql",
+        "porcentagem": "47",
+        "imagem": "../../assets/img/postgresql_icon.svg",
+        "paragrafo": "PostgreSQL é um poderoso sistema de banco de dados relacional de objeto de código aberto com mais de 35 anos de desenvolvimento ativo que lhe rendeu uma forte reputação de confiabilidade, robustez de recursos e desempenho."
+    },
+    {
+        "id": 5,
+        "title": "Agil",
+        "porcentagem": "27",
+        "imagem": "../../assets/img/agile-svgrepo-com.svg",
+        "paragrafo": "O método ágil é uma abordagem flexível para o desenvolvimento de projetos que se concentra na colaboração, adaptação e entrega contínua. Em vez de seguir um plano rígido do início ao fim, as equipes ágeis trabalham em iterações curtas, frequentemente ajustando suas prioridades com base no feedback constante. Isso permite que as equipes sejam mais ágeis e respondam às mudanças do projeto de forma eficaz, entregando valor aos clientes de maneira mais rápida. O método ágil é amplamente adotado em desenvolvimento de software e é conhecido por promover a comunicação eficaz, a transparência e a melhoria contínua."
+    },
+    {
+        "id": 6,
+        "title": "Terraform",
+        "porcentagem": "22",
+        "imagem": "../../assets/img/terraform.svg",
+        "paragrafo": "Terraform é uma ferramenta de infraestrutura como código que permite construir, alterar e versionar infraestrutura com segurança e eficiência. Isso inclui componentes de baixo nível, como instâncias de computação, armazenamento e rede; e componentes de alto nível, como entradas DNS e recursos SaaS."
+    }
+]
