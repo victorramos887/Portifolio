@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <Carreira />
       <Row>
-        <Col></Col>
+        
         <Col size={12} sm={8}>
           <Formacao />
         </Col>
