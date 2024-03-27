@@ -38,7 +38,78 @@ const Formacao = () => {
                   comunicação, preparando-me para enfrentar os desafios
                   profissionais com confiança.
                 </p>
+                
                 <div className="main-timeline-2">
+
+                  <div className="timeline-2 left-2">
+                      <MDBCard
+                        className={
+                          isVisible ? "animate__animated animate__fadeIn" : ""
+                        }
+                      >
+                        <div className="formcao-imgx">
+                          <MDBCardImage
+                            src={mbausp}
+                            alt="Responsive image"
+                            position="top"
+                          />
+                          <div className="formacao-txtx">
+                            <h4>PÓS-GRADUAÇÃO LATO SENSU</h4>
+                            <span>
+                            Desenvolvimento de habilidades em DevOps, Backend e Gestão de Cloud Computing. Preparação profissional para o desenvolvimento de habilidades de liderança em projetos escaláveis.
+                            </span>
+                          </div>
+                        </div>
+
+                        <MDBCardBody className="p-4">
+                          <h4 className="fw-bold mb-4">
+                          MBA Engenharia de Software
+                          </h4>
+                          <p className="text-muted mb-4">
+                            <MDBIcon far icon="clock" /> conclusão em 2025
+                          </p>
+                          <p className="mb-0">
+                            Desenvolvimento de Skill em Engenharia de Software.
+                          </p>
+                        </MDBCardBody>
+                      </MDBCard>
+                    </div>
+
+
+                  <div className="timeline-2 right-2">
+                      <MDBCard
+                        className={
+                          isVisible ? "animate__animated animate__fadeIn" : ""
+                        }
+                      >
+                        <div className="formcao-imgx">
+                          <MDBCardImage
+                            src={fatec}
+                            alt="Responsive image"
+                            position="top"
+                          />
+                          <div className="formacao-txtx">
+                            <h4>GRADUÇÃO - FATEC SÃO PAULO</h4>
+                            <span>
+                            Projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação.
+                            </span>
+                          </div>
+                        </div>
+
+                        <MDBCardBody className="p-4">
+                          <h4 className="fw-bold mb-4">
+                            Tecnologo em Análise e Desenvolvimento de Sistemas
+                          </h4>
+                          <p className="text-muted mb-4">
+                            <MDBIcon far icon="clock" /> conclusão em 2028
+                          </p>
+                          <p className="mb-0">
+                            Desenvolvimento de Skill de Sistemas e Software.
+                          </p>
+                        </MDBCardBody>
+                      </MDBCard>
+                    </div>
+
                   <div className="timeline-2 left-2">
                     <MDBCard
                       className={
@@ -65,7 +136,7 @@ const Formacao = () => {
                           MBA Data Science And Analytics
                         </h4>
                         <p className="text-muted mb-4">
-                          <MDBIcon far icon="clock" /> 2023
+                          <MDBIcon far icon="clock" /> concluido em 2023
                         </p>
                         <p className="mb-0">
                           Ampliação de conhecimentos em análises de dados.
@@ -94,7 +165,7 @@ const Formacao = () => {
                           Tecnologo em Hidráulca e Saneamento Ambiental
                         </h4>
                         <p className="text-muted mb-4">
-                          <MDBIcon far icon="clock" /> 2020
+                          <MDBIcon far icon="clock" /> concluido em 2020
                         </p>
                         <p className="mb-0">
                           Desenvolvimento de projetos hidráulicos, hidrológicos e de licenciamento ambiental. Pesquisas realcionadas a perdas, consumos e tratamentos de água foi foco nesta graduação.
@@ -122,7 +193,7 @@ const Formacao = () => {
                       <MDBCardBody className="p-4">
                         <h4 className="fw-bold mb-4">Técnico em Química</h4>
                         <p className="text-muted mb-4">
-                          <MDBIcon far icon="clock" /> 2014
+                          <MDBIcon far icon="clock" /> concluido em 2014
                         </p>
                         <p className="mb-0">
                           Conhecimento de análises laboratóriais químicas, auxilio em pesquisas e desevolvimento de novos produtos na industria de cosméticos, alimentos e polímeros.

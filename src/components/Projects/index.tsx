@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCards from "../ProjectCards";
-import terraform from "../../assets/img/terraform.png"
+import terraform from "../../assets/img/terraform2.png"
+import postgis from "../../assets/img/postgresql2.svg"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -8,9 +9,14 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "TerraForma",
-      description: "Devops",
+      title: "TerraForm",
+      description: "Deploy cloud",
       imgUrl: terraform,
+    },
+    {
+      title: "Postgis",
+      description: "Database",
+      imgUrl: postgis,
     }
   ];
 
@@ -23,7 +29,7 @@ const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projetos</h2>
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p >Durante minha trajetória profissional, acumulei uma ampla experiência ao desenvolver uma variedade de projetos tanto na área de banco de dados quanto de front-end. Essa experiência diversificada me permitiu solidificar minha carreira como um profissional versátil e capacitado. Ao combinar habilidades em tecnologia e programação, conquistei uma base sólida que me capacita a enfrentar desafios complexos e a contribuir de forma significativa em projetos diversos.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

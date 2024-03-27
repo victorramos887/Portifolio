@@ -10,6 +10,8 @@ import agile from "../../assets/img/agile-svgrepo-com.svg";
 import agile2 from "../../assets/img/agil2.png";
 import terraform from "../../assets/img/terraform.svg";
 import terraform2 from "../../assets/img/terraform2.png";
+import django from "../../assets/img/django.svg";
+import django2 from "../../assets/img/django.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -43,6 +45,14 @@ const Skills = () => {
   };
 
   const skillsitem = [
+    {
+      id: 7,
+      title: "Django",
+      porcentagem: "61",
+      imagem: django,
+      imagem2: django2,
+      paragrafo: `O Django é um framework web Python de alto nível que incentiva o desenvolvimento rápido e um design limpo e pragmático. Desenvolvido por programadores experientes, ele cuida de grande parte das dificuldades do desenvolvimento web, permitindo que você se concentre em escrever sua aplicação sem precisar reinventar a roda. É gratuito e de código aberto.`,
+    },
     {
       id: 1,
       title: "Qgis",

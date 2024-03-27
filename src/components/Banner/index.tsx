@@ -66,11 +66,12 @@ const Banner = () => {
                 >
                   <span className="tagline">Olá, seja bem vindo.</span>
                   <h1>
-                    {`Oi, eu sou Victor Ramos. Desenvolvo `}{" "}
+                    {`Oi, eu sou Victor Ramos. Profissional em `}{" "}
                     <span
+                      style={{ color: '#40918D' }}
                       className="txt-rotate"
                       // dataPeriod="1000"
-                      data-rotate='[ "Banco de dados", "GIS", "Back-End", "Front-End ]'
+                      data-rotate='[ "Banco de dados", "GIS", "Back-End", "Front-End", "AWS Deployer", "GCP" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
